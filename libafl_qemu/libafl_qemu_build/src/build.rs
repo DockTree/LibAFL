@@ -11,7 +11,7 @@ use crate::cargo_add_rpath;
 
 pub const QEMU_URL: &str = "https://github.com/AFLplusplus/qemu-libafl-bridge";
 pub const QEMU_DIRNAME: &str = "qemu-libafl-bridge";
-pub const QEMU_REVISION: &str = "fea68856b9410ca6f0076a6bf9ccc4b4b11aa09c";
+pub const QEMU_REVISION: &str = "2a676d9cd8c474b5c0db1d77d2769e56e2ed8524";
 
 pub struct BuildResult {
     pub qemu_path: PathBuf,
@@ -100,7 +100,7 @@ fn configure_qemu(
     }
 
     if cfg!(feature = "qemu_sanitizers") {
-        cmd.arg("--enable-sanitizers");
+        cmd.arg("--enable-asan");
     }
 
     if is_usermode {
