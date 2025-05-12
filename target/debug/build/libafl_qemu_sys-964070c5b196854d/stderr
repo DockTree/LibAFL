@@ -1,0 +1,3 @@
+clang diag: /usr/games/LibAFL/target/debug/qemu-libafl-bridge/include/exec/cpu-all.h:160:47: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+clang diag: /usr/games/LibAFL/target/debug/qemu-libafl-bridge/include/exec/cpu-all.h:160:47: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+Failed to run rustfmt: No such file or directory (os error 2) (non-fatal, continuing)

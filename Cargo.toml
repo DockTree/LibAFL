@@ -25,7 +25,7 @@ members = [
   "utils/drcov_utils",
   "utils/gramatron/construct_automata",
   "utils/libafl_benches",
-  "utils/libafl_jumper",
+  "utils/libafl_jumper", "fuzzers/taintfuzz",
 ]
 
 default-members = [

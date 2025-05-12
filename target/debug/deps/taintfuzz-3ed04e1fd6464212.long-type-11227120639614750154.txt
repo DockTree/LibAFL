@@ -1,0 +1,1 @@
+SimpleEventManager<_, SimpleMonitor<{closure@fuzzers/taintfuzz/src/main.rs:75:34: 75:37}>, _>
